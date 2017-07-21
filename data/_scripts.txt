@@ -1,0 +1,233 @@
+Skill 1 Attack: Damage Formula: a.atk * (1 + rand(1)) - b.def + 5
+Skill 71 Tackle: Damage Formula: 40 * (a.atk / b.def) * ((2 * a.level + 10) / 250.0) + 2
+Skill 73 Gust: Damage Formula: 40 * (a.mat / b.mdf) * ((2 * a.level + 10) / 250.0) + 2
+Skill 74 Quick Attack: Damage Formula: 40 * (a.atk / b.def) * ((2 * a.level + 10) / 250.0) + 2
+Skill 77 Vine Whip: Damage Formula: 45 * (a.atk / b.def) * ((2 * a.level + 10) / 250.0) + 2
+Troop 1 Emerbar  Page 1 Line 3:  - Control Variables script call: 1 * (1 + rand(1)) - 2 + 5
+Troop 1 Emerbar  Page 2 Line 1:  - Script call: require_actor(2)
+Troop 1 Emerbar  Page 2 Line 2:  - Script call: require_actor(6)
+Troop 1 Emerbar  Page 5 Line 1:  - Script call: unrequire_actor(6)
+Troop 23 Pirate*5  Page 1 Line 1:  - Script call: First = $game_party.members[0].id
+Troop 23 Pirate*5  Page 1 Line 2:  - Script call: change_xstat(First, :AGIV, 0.25)
+Troop 23 Pirate*5  Page 1 Line 3:  - Script call: 
+Troop 23 Pirate*5  Page 1 Line 4:  - Script call: Second = $game_party.members[0].id
+Troop 23 Pirate*5  Page 1 Line 5:  - Script call: change_xstat(Second, :AGIV, 0.25)
+Troop 23 Pirate*5  Page 1 Line 6:  - Script call: 
+Troop 23 Pirate*5  Page 1 Line 7:  - Script call: Third = $game_party.members[0].id
+Troop 23 Pirate*5  Page 1 Line 8:  - Script call: change_xstat(Third, :AGIV, 0.25)
+Troop 23 Pirate*5  Page 1 Line 9:  - Script call: 
+Troop 23 Pirate*5  Page 1 Line 10:  - Script call: Fourth = $game_party.members[0].id
+Troop 23 Pirate*5  Page 1 Line 11:  - Script call: change_xstat(Fourth, :AGIV, 0.25)
+Troop 211 Bulbasaur  Page 1 Line 1:  - Script call: #MHP => 0
+Troop 211 Bulbasaur  Page 1 Line 2:  - Script call: #MMP => 1
+Troop 211 Bulbasaur  Page 1 Line 3:  - Script call: #ATK => 2
+Troop 211 Bulbasaur  Page 1 Line 4:  - Script call: #DEF => 3
+Troop 211 Bulbasaur  Page 1 Line 5:  - Script call: #MAT => 4
+Troop 211 Bulbasaur  Page 1 Line 6:  - Script call: #MDF => 5
+Troop 211 Bulbasaur  Page 1 Line 7:  - Script call: #AGI => 6
+Troop 211 Bulbasaur  Page 1 Line 8:  - Script call: 
+Troop 211 Bulbasaur  Page 1 Line 9:  - Script call: 
+Troop 211 Bulbasaur  Page 1 Line 10:  - Script call: 
+Troop 211 Bulbasaur  Page 1 Line 11:  - Script call: $game_party.members.each { |actor| actor.add_param(4, 0.25) }
+Troop 211 Bulbasaur  Page 2 Line 3:  - Control Variables script call: party_luk
+Troop 211 Bulbasaur  Page 2 Line 14:  - Script call: #MHP => 0
+Troop 211 Bulbasaur  Page 2 Line 15:  - Script call: #MMP => 1
+Troop 211 Bulbasaur  Page 2 Line 16:  - Script call: #ATK => 2
+Troop 211 Bulbasaur  Page 2 Line 17:  - Script call: #DEF => 3
+Troop 211 Bulbasaur  Page 2 Line 18:  - Script call: #MAT => 4
+Troop 211 Bulbasaur  Page 2 Line 19:  - Script call: #MDF => 5
+Troop 211 Bulbasaur  Page 2 Line 20:  - Script call: #AGI => 6
+Troop 211 Bulbasaur  Page 2 Line 21:  - Script call: 
+Troop 211 Bulbasaur  Page 2 Line 22:  - Script call: $game_party.members.each { |actor| actor.add_param(4, 0.25) }
+Troop 211 Bulbasaur  Page 2 Line 24:  - Script call: $game_actors[2].unlock_class(13)
+Troop 211 Bulbasaur  Page 2 Line 28:  - Script call: $game_actors[3].unlock_class(13)
+Troop 211 Bulbasaur  Page 2 Line 32:  - Script call: $game_actors[4].unlock_class(13)
+Troop 211 Bulbasaur  Page 2 Line 36:  - Script call: $game_actors[5].unlock_class(13)
+Troop 212 Charmander  Page 1 Line 1:  - Script call: #MHP => 0
+Troop 212 Charmander  Page 1 Line 2:  - Script call: #ATK => 2
+Troop 212 Charmander  Page 1 Line 3:  - Script call: #DEF => 3
+Troop 212 Charmander  Page 1 Line 4:  - Script call: #MAT => 4
+Troop 212 Charmander  Page 1 Line 5:  - Script call: #MDF => 5
+Troop 212 Charmander  Page 1 Line 6:  - Script call: #AGI => 6
+Troop 212 Charmander  Page 1 Line 7:  - Script call: 
+Troop 212 Charmander  Page 1 Line 8:  - Script call: $game_party.members.each { |actor| actor.add_param(6, 0.25) }
+Troop 212 Charmander  Page 2 Line 13:  - Script call: #MHP => 0
+Troop 212 Charmander  Page 2 Line 14:  - Script call: #ATK => 2
+Troop 212 Charmander  Page 2 Line 15:  - Script call: #DEF => 3
+Troop 212 Charmander  Page 2 Line 16:  - Script call: #MAT => 4
+Troop 212 Charmander  Page 2 Line 17:  - Script call: #MDF => 5
+Troop 212 Charmander  Page 2 Line 18:  - Script call: #AGI => 6
+Troop 212 Charmander  Page 2 Line 19:  - Script call: 
+Troop 212 Charmander  Page 2 Line 20:  - Script call: $game_party.members.each { |actor| actor.add_param(6, 0.25) }
+Troop 213 Squirtle  Page 1 Line 1:  - Script call: #MHP => 0
+Troop 213 Squirtle  Page 1 Line 2:  - Script call: #ATK => 2
+Troop 213 Squirtle  Page 1 Line 3:  - Script call: #DEF => 3
+Troop 213 Squirtle  Page 1 Line 4:  - Script call: #MAT => 4
+Troop 213 Squirtle  Page 1 Line 5:  - Script call: #MDF => 5
+Troop 213 Squirtle  Page 1 Line 6:  - Script call: #AGI => 6
+Troop 213 Squirtle  Page 1 Line 7:  - Script call: 
+Troop 213 Squirtle  Page 1 Line 8:  - Script call: #1 EV = 0.25
+Troop 213 Squirtle  Page 1 Line 9:  - Script call: 
+Troop 213 Squirtle  Page 1 Line 10:  - Script call: $game_party.members.each { |actor| actor.add_param(3, 0.25) }
+Troop 213 Squirtle  Page 2 Line 13:  - Script call: #MHP => 0
+Troop 213 Squirtle  Page 2 Line 14:  - Script call: #ATK => 2
+Troop 213 Squirtle  Page 2 Line 15:  - Script call: #DEF => 3
+Troop 213 Squirtle  Page 2 Line 16:  - Script call: #MAT => 4
+Troop 213 Squirtle  Page 2 Line 17:  - Script call: #MDF => 5
+Troop 213 Squirtle  Page 2 Line 18:  - Script call: #AGI => 6
+Troop 213 Squirtle  Page 2 Line 19:  - Script call: 
+Troop 213 Squirtle  Page 2 Line 20:  - Script call: #1 EV = 0.25
+Troop 213 Squirtle  Page 2 Line 21:  - Script call: 
+Troop 213 Squirtle  Page 2 Line 22:  - Script call: $game_party.members.each { |actor| actor.add_param(3, 0.25) }
+Troop 214 Caterpie  Page 1 Line 1:  - Script call: #MHP => 0
+Troop 214 Caterpie  Page 1 Line 2:  - Script call: #ATK => 2
+Troop 214 Caterpie  Page 1 Line 3:  - Script call: #DEF => 3
+Troop 214 Caterpie  Page 1 Line 4:  - Script call: #MAT => 4
+Troop 214 Caterpie  Page 1 Line 5:  - Script call: #MDF => 5
+Troop 214 Caterpie  Page 1 Line 6:  - Script call: #AGI => 6
+Troop 214 Caterpie  Page 1 Line 7:  - Script call: 
+Troop 214 Caterpie  Page 1 Line 8:  - Script call: #1 EV = 0.25
+Troop 214 Caterpie  Page 1 Line 9:  - Script call: 
+Troop 214 Caterpie  Page 1 Line 10:  - Script call: $game_party.members.each { |actor| actor.add_param(0, 0.25) }
+Troop 214 Caterpie  Page 2 Line 13:  - Script call: #MHP => 0
+Troop 214 Caterpie  Page 2 Line 14:  - Script call: #ATK => 2
+Troop 214 Caterpie  Page 2 Line 15:  - Script call: #DEF => 3
+Troop 214 Caterpie  Page 2 Line 16:  - Script call: #MAT => 4
+Troop 214 Caterpie  Page 2 Line 17:  - Script call: #MDF => 5
+Troop 214 Caterpie  Page 2 Line 18:  - Script call: #AGI => 6
+Troop 214 Caterpie  Page 2 Line 19:  - Script call: 
+Troop 214 Caterpie  Page 2 Line 20:  - Script call: #1 EV = 0.25
+Troop 214 Caterpie  Page 2 Line 21:  - Script call: 
+Troop 214 Caterpie  Page 2 Line 22:  - Script call: $game_party.members.each { |actor| actor.add_param(0, 0.25) }
+Troop 215 Weedle  Page 1 Line 1:  - Script call: #MHP => 0
+Troop 215 Weedle  Page 1 Line 2:  - Script call: #ATK => 2
+Troop 215 Weedle  Page 1 Line 3:  - Script call: #DEF => 3
+Troop 215 Weedle  Page 1 Line 4:  - Script call: #MAT => 4
+Troop 215 Weedle  Page 1 Line 5:  - Script call: #MDF => 5
+Troop 215 Weedle  Page 1 Line 6:  - Script call: #AGI => 6
+Troop 215 Weedle  Page 1 Line 7:  - Script call: 
+Troop 215 Weedle  Page 1 Line 8:  - Script call: #1 EV = 0.25
+Troop 215 Weedle  Page 1 Line 9:  - Script call: 
+Troop 215 Weedle  Page 1 Line 10:  - Script call: $game_party.members.each { |actor| actor.add_param(6, 0.25) }
+Troop 215 Weedle  Page 2 Line 13:  - Script call: #MHP => 0
+Troop 215 Weedle  Page 2 Line 14:  - Script call: #ATK => 2
+Troop 215 Weedle  Page 2 Line 15:  - Script call: #DEF => 3
+Troop 215 Weedle  Page 2 Line 16:  - Script call: #MAT => 4
+Troop 215 Weedle  Page 2 Line 17:  - Script call: #MDF => 5
+Troop 215 Weedle  Page 2 Line 18:  - Script call: #AGI => 6
+Troop 215 Weedle  Page 2 Line 19:  - Script call: 
+Troop 215 Weedle  Page 2 Line 20:  - Script call: #1 EV = 0.25
+Troop 215 Weedle  Page 2 Line 21:  - Script call: 
+Troop 215 Weedle  Page 2 Line 22:  - Script call: $game_party.members.each { |actor| actor.add_param(6, 0.25) }
+Troop 216 Pidgey  Page 1 Line 1:  - Script call: #MHP => 0
+Troop 216 Pidgey  Page 1 Line 2:  - Script call: #ATK => 2
+Troop 216 Pidgey  Page 1 Line 3:  - Script call: #DEF => 3
+Troop 216 Pidgey  Page 1 Line 4:  - Script call: #MAT => 4
+Troop 216 Pidgey  Page 1 Line 5:  - Script call: #MDF => 5
+Troop 216 Pidgey  Page 1 Line 6:  - Script call: #AGI => 6
+Troop 216 Pidgey  Page 1 Line 7:  - Script call: 
+Troop 216 Pidgey  Page 1 Line 8:  - Script call: #1 EV = 0.25
+Troop 216 Pidgey  Page 1 Line 9:  - Script call: 
+Troop 216 Pidgey  Page 1 Line 10:  - Script call: $game_party.members.each { |actor| actor.add_param(6, 0.25) }
+Troop 216 Pidgey  Page 2 Line 13:  - Script call: #MHP => 0
+Troop 216 Pidgey  Page 2 Line 14:  - Script call: #ATK => 2
+Troop 216 Pidgey  Page 2 Line 15:  - Script call: #DEF => 3
+Troop 216 Pidgey  Page 2 Line 16:  - Script call: #MAT => 4
+Troop 216 Pidgey  Page 2 Line 17:  - Script call: #MDF => 5
+Troop 216 Pidgey  Page 2 Line 18:  - Script call: #AGI => 6
+Troop 216 Pidgey  Page 2 Line 19:  - Script call: 
+Troop 216 Pidgey  Page 2 Line 20:  - Script call: #1 EV = 0.25
+Troop 216 Pidgey  Page 2 Line 21:  - Script call: 
+Troop 216 Pidgey  Page 2 Line 22:  - Script call: $game_party.members.each { |actor| actor.add_param(6, 0.25) }
+Troop 217 Rattata  Page 1 Line 1:  - Script call: #MHP => 0
+Troop 217 Rattata  Page 1 Line 2:  - Script call: #ATK => 2
+Troop 217 Rattata  Page 1 Line 3:  - Script call: #DEF => 3
+Troop 217 Rattata  Page 1 Line 4:  - Script call: #MAT => 4
+Troop 217 Rattata  Page 1 Line 5:  - Script call: #MDF => 5
+Troop 217 Rattata  Page 1 Line 6:  - Script call: #AGI => 6
+Troop 217 Rattata  Page 1 Line 7:  - Script call: 
+Troop 217 Rattata  Page 1 Line 8:  - Script call: #1 EV = 0.25
+Troop 217 Rattata  Page 1 Line 9:  - Script call: 
+Troop 217 Rattata  Page 1 Line 10:  - Script call: $game_party.members.each { |actor| actor.add_param(6, 0.25) }
+Troop 217 Rattata  Page 2 Line 13:  - Script call: #MHP => 0
+Troop 217 Rattata  Page 2 Line 14:  - Script call: #ATK => 2
+Troop 217 Rattata  Page 2 Line 15:  - Script call: #DEF => 3
+Troop 217 Rattata  Page 2 Line 16:  - Script call: #MAT => 4
+Troop 217 Rattata  Page 2 Line 17:  - Script call: #MDF => 5
+Troop 217 Rattata  Page 2 Line 18:  - Script call: #AGI => 6
+Troop 217 Rattata  Page 2 Line 19:  - Script call: 
+Troop 217 Rattata  Page 2 Line 20:  - Script call: #1 EV = 0.25
+Troop 217 Rattata  Page 2 Line 21:  - Script call: 
+Troop 217 Rattata  Page 2 Line 22:  - Script call: $game_party.members.each { |actor| actor.add_param(6, 0.25) }
+Common Event 3 After Death Intro Line 12:  - Script call: nickname_input_processing(2, 16)
+Common Event 3 After Death Intro Line 14:  - Script call: SceneManager.goto(Scene_Map)
+Common Event 5 Rune Line 3:  - Control Variables script call: 1.0
+Common Event 7 Vault (Down) Line 6:  - Script call: party_jump(0, 2)
+Common Event 10 Set Time Line 3:  - Script call: GameTime::set(1)
+Common Event 10 Set Time Line 6:  - Script call: GameTime::set(420)
+Common Event 10 Set Time Line 9:  - Script call: GameTime::set(840)
+Common Event 10 Set Time Line 12:  - Script call: GameTime::set(1140)
+Common Event 12 Zoom in Line 2:  - Script call: map_effects.set_zoom($game_variables[2], 20)
+Common Event 13 Zoom out Line 2:  - Script call: map_effects.set_zoom($game_variables[2], 20)
+Common Event 15 Ultra Rune Line 3:  - Control Variables script call: 2.0
+Common Event 19 Edgestorm Intro Line 26:  - Script call: nickname_input_processing(6, 16)
+Common Event 19 Edgestorm Intro Line 29:  - Script call: lock_actor(2)
+Common Event 19 Edgestorm Intro Line 30:  - Script call: 
+Common Event 19 Edgestorm Intro Line 31:  - Script call: First = 2
+Common Event 19 Edgestorm Intro Line 32:  - Script call: change_xstat(First, :ATKIV, rand(31))
+Common Event 19 Edgestorm Intro Line 33:  - Script call: change_xstat(First, :DEFIV, rand(31))
+Common Event 19 Edgestorm Intro Line 34:  - Script call: change_xstat(First, :MATIV, rand(31))
+Common Event 19 Edgestorm Intro Line 35:  - Script call: change_xstat(First, :MDFIV, rand(31))
+Common Event 19 Edgestorm Intro Line 36:  - Script call: change_xstat(First, :AGIV, rand(31))
+Common Event 19 Edgestorm Intro Line 37:  - Script call: change_xstat(First, :LUKIV, rand(31))
+Common Event 19 Edgestorm Intro Line 38:  - Script call: 
+Common Event 19 Edgestorm Intro Line 39:  - Script call: $game_party.add_actor(6)
+Common Event 19 Edgestorm Intro Line 40:  - Script call: require_actor(6)
+Common Event 19 Edgestorm Intro Line 41:  - Script call: 
+Common Event 19 Edgestorm Intro Line 42:  - Script call: First =  6
+Common Event 19 Edgestorm Intro Line 43:  - Script call: change_xstat(First, :ATKIV, rand(31))
+Common Event 19 Edgestorm Intro Line 44:  - Script call: change_xstat(First, :DEFIV, rand(31))
+Common Event 19 Edgestorm Intro Line 45:  - Script call: change_xstat(First, :MATIV, rand(31))
+Common Event 19 Edgestorm Intro Line 46:  - Script call: change_xstat(First, :MDFIV, rand(31))
+Common Event 19 Edgestorm Intro Line 47:  - Script call: change_xstat(First, :AGIV, rand(31))
+Common Event 19 Edgestorm Intro Line 48:  - Script call: change_xstat(First, :LUKIV, rand(31))
+Common Event 19 Edgestorm Intro Line 55:  - Script call: SceneManager.goto(Scene_Map)
+Common Event 21 Gameover Event Line 6:  - Script call: create_party_corpse
+Map 1 Sign In Screen - Event 1 EV001 (0,0) - Page 1 Line 3:  - Script call: hide_minimap
+Map 1 Sign In Screen - Event 1 EV001 (0,0) - Page 1 Line 4:  - Script call: $game_system.game_over_event_id = 21
+Map 1 Sign In Screen - Event 1 EV001 (0,0) - Page 1 Line 5:  - Script call: GameTime::set(617)
+Map 5 Time Portal - Event 1 EV001 (12,14) - Page 1 Line 18:  - Script call: GameTime::change(720)
+Map 17 Red Room - Event 3 EV003 (12,8) - Page 1 Line 3:  - Script call: instant_gather
+Map 17 Red Room - Event 3 EV003 (12,8) - Page 1 Line 4:  - Script call: member_move(1, "BACKWARD")
+Map 17 Red Room - Event 3 EV003 (12,8) - Page 1 Line 5:  - Script call: member_move(2, "BACKWARD")
+Map 17 Red Room - Event 3 EV003 (12,8) - Page 1 Line 6:  - Script call: member_move(2, "LEFT")
+Map 17 Red Room - Event 3 EV003 (12,8) - Page 1 Line 7:  - Script call: member_move(2, "TURN_R")
+Map 19 Jader's Castle F2 - Event 10 Silver (36,36) - Page 1 Line 35:  - Script call: $game_player.followers.visible = true
+Map 20 Jail - Event 7 EV007 (19,9) - Page 2 Line 16:  - Script call: lock_actor(6)
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 38:  - Script call: nickname_input_processing(3, 16)
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 43:  - Control Variables script call: $game_party.members[1].class.id
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 44:  - Script call: First = $game_party.members[1].id
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 45:  - Script call: change_xstat(First, :ATKIV, rand(31))
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 46:  - Script call: change_xstat(First, :DEFIV, rand(31))
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 47:  - Script call: change_xstat(First, :MATIV, rand(31))
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 48:  - Script call: change_xstat(First, :MDFIV, rand(31))
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 49:  - Script call: change_xstat(First, :AGIV, rand(31))
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 50:  - Script call: change_xstat(First, :LUKIV, rand(31))
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 92:  - Script call: switch_party(3)
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 97:  - Script call: nickname_input_processing(4, 16)
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 99:  - Script call: First = $game_party.members[2].id
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 100:  - Script call: change_xstat(First, :ATKIV, rand(31))
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 101:  - Script call: change_xstat(First, :DEFIV, rand(31))
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 102:  - Script call: change_xstat(First, :MATIV, rand(31))
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 103:  - Script call: change_xstat(First, :MDFIV, rand(31))
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 104:  - Script call: change_xstat(First, :AGIV, rand(31))
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 105:  - Script call: change_xstat(First, :LUKIV, rand(31))
+Map 25 Pub - Event 3 EV003 (11,7) - Page 1 Line 6:  - Script call: instant_gather
+Map 25 Pub - Event 3 EV003 (11,7) - Page 1 Line 7:  - Script call: member_move(1, "BACKWARD")
+Map 25 Pub - Event 3 EV003 (11,7) - Page 1 Line 8:  - Script call: member_move(2, "BACKWARD")
+Map 25 Pub - Event 3 EV003 (11,7) - Page 1 Line 9:  - Script call: member_move(2, "LEFT")
+Map 25 Pub - Event 3 EV003 (11,7) - Page 1 Line 10:  - Script call: member_move(2, "TURN_R")
+Map 26 Pocket Edge - Event 4 EV004 (0,0) - Page 1 Line 1:  - Conditional Branch script call: Input.trigger?(:LETTER_X)
+Map 28 Item Shop - Event 1 EV001 (10,10) - Page 1 Line 3:  - Script call: show_minimap
+Map 38 WMagic Shop - Event 1 EV001 (7,10) - Page 1 Line 1:  - Script call: @shop_type = "LearnSkillShop"
+Map 39 BMagic Shop - Event 1 EV001 (7,10) - Page 1 Line 1:  - Script call: @shop_type = "LearnSkillShop"

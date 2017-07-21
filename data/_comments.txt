@@ -1,0 +1,112 @@
+Common Event 1 Master Control Line 1:  - Comment: Camera Location
+Map 2 Fantasy Edge - Event 21 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 2 Fantasy Edge - Event 22 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 2 Fantasy Edge - Event 23 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 2 Fantasy Edge - Event 24 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 3 Town of Beginnings - Event 12 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 3 Town of Beginnings - Event 13 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 3 Town of Beginnings - Event 14 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 3 Town of Beginnings - Event 15 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 7 InnF1F - Event 2 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 7 InnF1F - Event 4 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 7 InnF1F - Event 5 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 7 InnF1F - Event 6 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 8 Nomad Camp - Event 5 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 8 Nomad Camp - Event 6 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 8 Nomad Camp - Event 7 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 8 Nomad Camp - Event 8 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 13 Elfheim - Event 34 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 13 Elfheim - Event 35 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 13 Elfheim - Event 36 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 13 Elfheim - Event 37 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 15 Into the Beast - Event 19 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 15 Into the Beast - Event 20 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 15 Into the Beast - Event 21 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 15 Into the Beast - Event 22 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 21 Hub House - Event 4 Mercury (11,8) - Page 3 Line 1:  - Comment: <page condition>
+Map 21 Hub House - Event 5 GN (10,9) - Page 3 Line 1:  - Comment: <page condition>
+Map 21 Hub House - Event 6 Otto (9,8) - Page 3 Line 1:  - Comment: <page condition>
+Map 21 Hub House - Event 7 EV007 (0,16) - Page 1 Line 90:  - Comment: \+{\Na[3]}
+Map 23 Castle Cornelia - Event 4 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 23 Castle Cornelia - Event 5 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 23 Castle Cornelia - Event 6 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 23 Castle Cornelia - Event 7 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 24 MAP024 - Event 5 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 24 MAP024 - Event 6 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 24 MAP024 - Event 7 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 24 MAP024 - Event 8 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 25 Pub - Event 4 EV004 (13,7) - Page 1 Line 9:  - Comment: \+{\P[1]}
+Map 25 Pub - Event 4 EV004 (13,7) - Page 1 Line 14:  - Comment: \+{\P[2]}
+Map 25 Pub - Event 4 EV004 (13,7) - Page 1 Line 19:  - Comment: \+{\P[3]}
+Map 27 Destiny Islands - Event 1 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 27 Destiny Islands - Event 2 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 27 Destiny Islands - Event 3 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 27 Destiny Islands - Event 4 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 29 Chaos Shrine - Event 5 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 29 Chaos Shrine - Event 6 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 29 Chaos Shrine - Event 7 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 29 Chaos Shrine - Event 8 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 30 Viridian Mart - Event 3 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 30 Viridian Mart - Event 4 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 30 Viridian Mart - Event 5 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 30 Viridian Mart - Event 6 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 31 Witches Cave - Event 3 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 31 Witches Cave - Event 4 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 31 Witches Cave - Event 5 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 31 Witches Cave - Event 6 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 33 InnF1F - Event 3 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 33 InnF1F - Event 4 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 33 InnF1F - Event 5 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 33 InnF1F - Event 6 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 36 Virdian Gym - Event 14 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 36 Virdian Gym - Event 15 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 36 Virdian Gym - Event 16 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 36 Virdian Gym - Event 17 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 42 Hoenn - Event 3 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 42 Hoenn - Event 4 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 42 Hoenn - Event 5 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 42 Hoenn - Event 6 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 43 Viridian Forest - Event 7 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 43 Viridian Forest - Event 8 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 43 Viridian Forest - Event 9 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 43 Viridian Forest - Event 10 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 44 Route 2 Entry - Event 3 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 44 Route 2 Entry - Event 4 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 44 Route 2 Entry - Event 5 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 44 Route 2 Entry - Event 6 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 45 Route 2 Exit - Event 3 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 45 Route 2 Exit - Event 4 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 45 Route 2 Exit - Event 5 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 45 Route 2 Exit - Event 6 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 47 Pewter Gym - Event 2 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 47 Pewter Gym - Event 3 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 47 Pewter Gym - Event 4 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 47 Pewter Gym - Event 5 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 49 Pewter Mart - Event 3 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 49 Pewter Mart - Event 4 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 49 Pewter Mart - Event 5 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 49 Pewter Mart - Event 6 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 50 Pewter Museum F1 - Event 4 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 50 Pewter Museum F1 - Event 5 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 50 Pewter Museum F1 - Event 6 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 50 Pewter Museum F1 - Event 7 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 51 Pewter Museum F2 - Event 2 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 51 Pewter Museum F2 - Event 3 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 51 Pewter Museum F2 - Event 4 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 51 Pewter Museum F2 - Event 5 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 53 Pelean INN - Event 3 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 53 Pelean INN - Event 4 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 53 Pelean INN - Event 5 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 53 Pelean INN - Event 6 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 54 Mt Moon - Event 10 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 54 Mt Moon - Event 11 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 54 Mt Moon - Event 12 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 54 Mt Moon - Event 13 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 55 Goblin CaveF1F - Event 3 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 55 Goblin CaveF1F - Event 4 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 55 Goblin CaveF1F - Event 5 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 55 Goblin CaveF1F - Event 6 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
+Map 56 Goblin CaveFB1 - Event 3 Basis (0,0) - Page 1 Line 1:  - Comment: <idle party id: 2>
+Map 56 Goblin CaveFB1 - Event 4 Mercury (1,0) - Page 1 Line 1:  - Comment: <idle party id: 3>
+Map 56 Goblin CaveFB1 - Event 5 GN (2,0) - Page 1 Line 1:  - Comment: <idle party id: 4>
+Map 56 Goblin CaveFB1 - Event 6 Otto (3,0) - Page 1 Line 1:  - Comment: <idle party id: 5>
