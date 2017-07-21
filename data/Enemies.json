@@ -1,4 +1,0 @@
-[
-null,
-{"id":1,"actions":[{"conditionParam1":0,"conditionParam2":0,"conditionType":0,"rating":5,"skillId":1}],"battlerHue":0,"battlerName":"Swordsman","dropItems":[{"dataId":1,"denominator":1,"kind":0},{"dataId":1,"denominator":1,"kind":0},{"dataId":1,"denominator":1,"kind":0}],"exp":14,"traits":[{"code":22,"dataId":0,"value":0.95},{"code":22,"dataId":1,"value":0.05},{"code":31,"dataId":1,"value":0}],"gold":7,"name":"Arlo","note":"<Sideview Battler: Arlo>\n<Sideview Show Shadow>\n<Sideview No Collapse>\n<Sideview Anchor X: 0.5>\n<Sideview Anchor Y: 1.0>","params":[31,7,12,13,13,16,7,11]}
-]

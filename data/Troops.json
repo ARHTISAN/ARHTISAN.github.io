@@ -1,4 +1,0 @@
-[
-null,
-{"id":1,"members":[{"enemyId":1,"x":264,"y":262,"hidden":false}],"name":"Arlo","pages":[{"conditions":{"actorHp":50,"actorId":1,"actorValid":false,"enemyHp":50,"enemyIndex":0,"enemyValid":false,"switchId":1,"switchValid":false,"turnA":0,"turnB":0,"turnEnding":false,"turnValid":true},"list":[{"code":117,"indent":0,"parameters":[1]},{"code":314,"indent":0,"parameters":[0,0]},{"code":0,"indent":0,"parameters":[]}],"span":0}]}
-]
